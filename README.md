@@ -1,6 +1,6 @@
-# Fnordmetric::Client
+# FnordmetricClient
 
-TODO: Write a gem description
+
 
 ## Installation
 
