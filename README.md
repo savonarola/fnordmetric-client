@@ -1,5 +1,6 @@
 # FnordmetricClient
 
+[![Build Status](https://secure.travis-ci.org/savonarola/fnordmetric-client.png)](http://travis-ci.org/savonarola/fnordmetric-client)
 
 
 ## Installation
