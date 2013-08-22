@@ -8,8 +8,6 @@ class FnordmetricClient
   DEFAULT_OVERFLOW_LIMIT = 50000
 
   def initialize(opts ={})
-    raise ArgumentError, "Bad options" unless opts.is_a?(Hash)
-
     @redis = opts[:redis]
     raise ArgumentError, "Bad :redis passed" unless %w{hincrby set lpush expire llen}.all?{|m| @redis.respond_to?(m) }
 
