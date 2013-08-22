@@ -12,10 +12,6 @@ describe FnordmetricClient do
   end
 
   describe "#new" do
-    it "should raise exception when receives a non-hashlike object" do
-      expect{ described_class.new(123) }.to raise_exception(ArgumentError)
-    end
-
     it "should raise exception when redis is not passed" do
       expect{ described_class.new({:redis => 123}) }.to raise_exception(ArgumentError)
       expect{ described_class.new({}) }.to raise_exception(ArgumentError)
