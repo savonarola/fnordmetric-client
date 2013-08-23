@@ -14,6 +14,7 @@ Gem::Specification.new do |gem|
   gem.name          = "fnordmetric-client"
   gem.require_paths = ["lib"]
   gem.version       = FnordmetricClient::VERSION
+  gem.license       = 'MIT'
 
   gem.add_runtime_dependency('json')
 
