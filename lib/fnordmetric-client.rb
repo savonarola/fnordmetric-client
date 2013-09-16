@@ -1,6 +1,6 @@
 require "fnordmetric-client/version"
 require 'securerandom'
-require 'json/add/core'
+require 'json'
 
 class FnordmetricClient
   DEFAULT_EVENT_TTL = 3600
